@@ -1,0 +1,99 @@
+{
+  "Rules": [
+    {
+      "Rule": [
+        {
+          "and": {
+            "Companies worked at": ["Microsoft"],
+            "Years of Experience": [8],
+            "Skills": ["C++"]
+          },
+          "score": 100
+        },
+        {
+          "and": {
+            "Companies worked at": ["Google"],
+            "Years of Experience": [8],
+            "Skills": ["Java"]
+          },
+          "score": 90
+        }
+      ]
+    },
+
+    {
+      "Rule": [
+        {
+          "and": {
+            "Companies worked at": ["Cisco"]
+          },
+          "score": 50
+        }
+      ]
+    },
+
+    {
+      "Rule": [
+        {
+          "and": {
+            "Degree": ["B.E"],
+            "Companies worked at": ["Accenture"],
+            "Designation": ["Application Development Associate"],
+            "College Name": ["Kendriya Vidyalaya"]
+         },
+          "score": 70
+        }
+      ]
+    },
+
+    {
+      "Rule": [
+        {
+          "and": {
+            "Skills": ["Database"]
+          },
+          "score": 70
+        }
+      ]
+    },
+
+    {
+      "Rule": [
+        {
+          "and":
+          {
+            "College Name": ["Shivaji university"]
+          },
+          "score": 70
+        }
+      ]
+    },
+
+    {
+      "Rule": [
+        {
+          "and": {
+            "Skills": ["mainframe", "cobol"],
+            "Designation": ["Senior systems engineer"]
+        },
+          "score": 280
+        }
+      ]
+    },
+
+    {
+      "Rule": [
+        {
+          "and": {
+            "Skills": ["database", "sql"],
+            "Designation": ["Operational Analyst"],
+            "Degree": ["Computer Science"]
+          },
+          "score": 170
+        }
+      ]
+    }
+
+
+  ]
+}

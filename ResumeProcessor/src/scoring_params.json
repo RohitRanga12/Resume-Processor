@@ -1,0 +1,38 @@
+{
+  "College Name": {
+    "IIT": 100,
+    "NIT": 70,
+    "IISC": 50
+  },
+  "Degree": {
+    "PhD": 80,
+    "Masters": 50,
+    "Bachelors": 30
+  },
+  "Designation": {
+    "Operational Analyst": 50,
+    "Software Engineer": 100,
+    "Software Developer": 50,
+    "Data Analyst": 60
+  },
+  "Years of Experience": {
+    "1-2": 20,
+    "2-4": 40,
+    ">4": 60
+  },
+  "Companies worked at": {
+    "Accenture": 30,
+    "Infosys": 60,
+    "Google": 200,
+    "Microsoft": 160
+  },
+  "Skills": {
+      "C": 30,
+      "C++": 50,
+      "Java": 50,
+      "Python": 60,
+      "DBMS": 30,
+      "Database (3 years), SQL (3 years), Sql Dba": 50
+  }
+
+}
